@@ -12,7 +12,6 @@ public class StartGame {
         field.setStepDecision(new Scanner(System.in).nextInt());
         while (field.GameContinue()) {
             field.MakeMove();
-            break;
         }
     }
 }
