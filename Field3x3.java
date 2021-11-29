@@ -5,8 +5,7 @@ public class Field3x3 extends Field implements Game {
     int[] points = new int[dim * dim];
 
     @Override
-    public int[] MakeMove() {
-        return super.MakeMove();
+    public void MakeMove() {
     }
 
     @Override

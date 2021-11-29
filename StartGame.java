@@ -9,9 +9,10 @@ public class StartGame {
                 "\nEnter the number:" +
                 "\n1.Player" +
                 "\n2.Computer");
-        int firstStep = new Scanner(System.in).nextInt();
+        field.setStepDecision(new Scanner(System.in).nextInt());
         while (field.GameContinue()) {
             field.MakeMove();
+            break;
         }
     }
 }

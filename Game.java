@@ -1,11 +1,10 @@
 package TicTacToeOOP;
 
 public interface Game {
-    void MakeField(int dim);
 
-    int[] MakeMove();
+    void MakeMove();
 
     boolean GameContinue();
 
-    String MakeLine(int i);
+    void setStepDecision(int stepDecision);
 }
