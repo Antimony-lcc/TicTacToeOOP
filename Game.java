@@ -7,4 +7,6 @@ public interface Game {
     boolean GameContinue();
 
     void setStepDecision(int stepDecision);
+
+    void MakeField();
 }
