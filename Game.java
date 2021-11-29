@@ -6,4 +6,6 @@ public interface Game {
     int[] MakeMove();
 
     boolean GameContinue();
+
+    String MakeLine(int i);
 }

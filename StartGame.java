@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class StartGame {
     public static void main(String[] args) {
-        Game field = new Field3x3();
+        Game field = new Field();
         System.out.println("Who wil be the first?" +
                 "\nEnter the number:" +
                 "\n1.Player" +
